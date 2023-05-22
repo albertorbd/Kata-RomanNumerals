@@ -10,7 +10,7 @@ public class RomanNumeralsShould {
     RomanNumerals romanNumerals = new RomanNumerals();
     @Test
     public void testRomanConvert() {
-        String One = this.romanNumerals.convertRoman(1);
-        Assert.assertTrue(One.equals("I"));
+        RomanNumerals romanNumerals = new RomanNumerals();
+        Assert.assertEquals("I", romanNumerals.convertRoman(1));
     }
 }
