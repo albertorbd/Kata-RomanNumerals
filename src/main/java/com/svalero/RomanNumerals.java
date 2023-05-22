@@ -9,8 +9,8 @@ public class RomanNumerals {
     private static final String[] Thousands = {"", "M", "MM", "MMM"};
 
     public static String convertRoman(int entero) {
-        if (entero < 1 || entero > 1000) {
-            throw new IllegalArgumentException("El número debe estar entre 1 y 1000");
+        if (entero < 1 || entero > 3000) {
+            throw new IllegalArgumentException("El número debe estar entre 1 y 3000");
         }
 
         int unit = entero % 10;
