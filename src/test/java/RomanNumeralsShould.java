@@ -12,5 +12,6 @@ public class RomanNumeralsShould {
     public void testRomanConvert() {
         RomanNumerals romanNumerals = new RomanNumerals();
         Assert.assertEquals("I", romanNumerals.convertRoman(1));
+        Assert.assertEquals("II", romanNumerals.convertRoman(2));
     }
 }

@@ -7,6 +7,9 @@ public class RomanNumerals {
         if (entero == 1) {
             romanNumber = "I";
         }
+        if (entero == 2) {
+            romanNumber = "II";
+        }
         return romanNumber;
     }
 
