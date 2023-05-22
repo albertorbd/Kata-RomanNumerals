@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cfbd92e-4ba3-4f75-b7fd-1f40777105c5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/svalero/RomanNumerals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/svalero/RomanNumerals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RomanNumeralsShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RomanNumeralsShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +40,24 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="RomanNumeralsShould" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Kata-RomanNumerals" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RomanNumeralsShould" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.RomanNumeralsShould" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
