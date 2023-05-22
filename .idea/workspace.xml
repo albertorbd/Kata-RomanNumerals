@@ -6,6 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="9cfbd92e-4ba3-4f75-b7fd-1f40777105c5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kata-RomanNumerals - Acceso directo.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/svalero/RomanNumerals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/svalero/RomanNumerals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RomanNumeralsShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RomanNumeralsShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/svalero/RomanNumerals.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/svalero/RomanNumerals.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RomanNumeralsShould.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RomanNumeralsShould.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

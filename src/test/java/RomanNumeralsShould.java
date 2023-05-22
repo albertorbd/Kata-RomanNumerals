@@ -30,6 +30,16 @@ public class RomanNumeralsShould {
         Assert.assertEquals("LXXVIII", romanNumerals.convertRoman(78));
         Assert.assertEquals("LXXXVI", romanNumerals.convertRoman(86));
         Assert.assertEquals("C", romanNumerals.convertRoman(100));
+        Assert.assertEquals("CXII", romanNumerals.convertRoman(112));
+        Assert.assertEquals("CL", romanNumerals.convertRoman(150));
+        Assert.assertEquals("CC", romanNumerals.convertRoman(200));
+        Assert.assertEquals("CCCX", romanNumerals.convertRoman(310));
+        Assert.assertEquals("D", romanNumerals.convertRoman(500));
+        Assert.assertEquals("DCC", romanNumerals.convertRoman(700));
+        Assert.assertEquals("DCCLXXII", romanNumerals.convertRoman(772));
+        Assert.assertEquals("DCCCXV", romanNumerals.convertRoman(815));
+        Assert.assertEquals("CML", romanNumerals.convertRoman(950));
+        Assert.assertEquals("M", romanNumerals.convertRoman(1000));
 
     }
 }
