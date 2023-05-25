@@ -167,9 +167,6 @@ public class RomanNumeralsShouldTest {
         assertEquals("MMM",
                 RomanNumerals.convertRoman(THREETHOUSAND));
 
-
-
-
-
     }
 }
+
