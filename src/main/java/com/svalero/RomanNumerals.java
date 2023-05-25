@@ -1,6 +1,8 @@
 package com.svalero;
 
-
+/**
+ * Clase que convierte los números enteros a números romanos.
+ */
 public final class RomanNumerals {
 
     /**
@@ -53,7 +55,10 @@ public final class RomanNumerals {
         private static final int THREETHOUSAND = 3000;
 
         /**
-         * Clase que convierte los números enteros a romanos.
+         * Convierte un número entero en su representación en números romanos.
+         *
+         * @param entero El número entero a convertir. Debe estar entre 1 y 3000.
+         * @return La representación en números romanos del número entero.
         */
     public static String convertRoman(final int entero) {
 
