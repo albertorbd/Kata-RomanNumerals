@@ -57,7 +57,7 @@ public final class RomanNumerals {
         /**
          * Convierte un número entero en su representación en números romanos.
          *
-         * @param entero El número entero a convertir. Debe estar entre 1 y 3000.
+         * @param entero El número entero debe estar entre 1 y 3000.
          * @return La representación en números romanos del número entero.
         */
     public static String convertRoman(final int entero) {
