@@ -1,6 +1,5 @@
 package com.svalero;
 
-//Clase que convierte los números enteros a romanos
 
 public final class RomanNumerals {
 
@@ -37,23 +36,25 @@ public final class RomanNumerals {
      */
     private RomanNumerals() { }
         /**
-        * Nueva constante para representar el valor "10"
+        * Nueva constante para representar el valor "10".
          */
         private static final int TEN = 10;
         /**
-        * Nueva constante para representar el valor "100"
+        * Nueva constante para representar el valor "100".
         */
         private static final int HUNDRED = 100;
         /**
-        * Nueva constante para representar el valor "1000"
+        * Nueva constante para representar el valor "1000".
         */
         private static final int THOUSAND = 1000;
         /**
-        * Nueva constante para representar el valor "3000"
+        * Nueva constante para representar el valor "3000".
         */
         private static final int THREETHOUSAND = 3000;
 
-
+        /**
+         * Clase que convierte los números enteros a romanos.
+        */
     public static String convertRoman(final int entero) {
 
         if (entero < 1 || entero > THREETHOUSAND) {
