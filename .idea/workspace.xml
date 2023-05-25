@@ -7,7 +7,9 @@
     <list default="true" id="9cfbd92e-4ba3-4f75-b7fd-1f40777105c5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/svalero/RomanNumerals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/svalero/RomanNumerals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/svalero/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/svalero/package-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RomanNumeralsShouldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RomanNumeralsShouldTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/package-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
