@@ -32,12 +32,26 @@ public final class RomanNumerals {
      */
     private static final String[] THOUSANDS = {"", "M", "MM", "MMM"};
 
-    private RomanNumerals() {}
-        // Constructor privado para evitar la instanciación de la clase
-        private static final int TEN = 10; // Nueva constante para representar el valor "10"
-        private static final int HUNDRED = 100; // Nueva constante para representar el valor "100"
-        private static final int THOUSAND = 1000; // Nueva constante para representar el valor "1000"
-        private static final int THREETHOUSAND = 3000; // Nueva constante para representar el valor "1000"
+    /**
+     * Representación de los millares en números romanos.
+     */
+    private RomanNumerals() { }
+        /**
+        * Nueva constante para representar el valor "10"
+         */
+        private static final int TEN = 10;
+        /**
+        * Nueva constante para representar el valor "100"
+        */
+        private static final int HUNDRED = 100;
+        /**
+        * Nueva constante para representar el valor "1000"
+        */
+        private static final int THOUSAND = 1000;
+        /**
+        * Nueva constante para representar el valor "3000"
+        */
+        private static final int THREETHOUSAND = 3000;
 
 
     public static String convertRoman(final int entero) {
