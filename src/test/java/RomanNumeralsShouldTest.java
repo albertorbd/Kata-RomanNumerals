@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class RomanNumeralsShouldTest {
 
-    RomanNumerals romanNumerals = new RomanNumerals();
+
     @Test
     public void testRomanConvert() {
         RomanNumerals romanNumerals = new RomanNumerals();

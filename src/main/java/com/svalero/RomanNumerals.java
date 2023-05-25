@@ -1,24 +1,35 @@
 package com.svalero;
 
-public class RomanNumerals {
+//Clase que convierte los números enteros a romanos
 
-    private static final String[] Units = {"", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"};
-    private static final String[] Tens = {"", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"};
-    private static final String[] Hundreds = {"", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"};
+public final class RomanNumerals {
 
-    private static final String[] Thousands = {"", "M", "MM", "MMM"};
+    private static final String[] UNITS = {"", "I", "II", "III", "IV", "V", "VI",
+            "VII", "VIII", "IX"};
+    private static final String[] TENS = {"", "X", "XX", "XXX", "XL",
+            "L", "LX", "LXX", "LXXX", "XC"};
+    private static final String[] HUNDREDS = {"", "C", "CC", "CCC",
+            "CD", "D", "DC", "DCC", "DCCC", "CM"};
 
-    public static String convertRoman(int entero) {
+    private static final String[] THOUSANDS = {"", "M", "MM", "MMM"};
+
+
+    public static String convertRoman( final int entero) {
+
+        int diez = 10;
+        int cien = 100;
+        int mil = 1000;
         if (entero < 1 || entero > 3000) {
             throw new IllegalArgumentException("El número debe estar entre 1 y 3000");
         }
 
-        int unit = entero % 10;
-        int ten = (entero / 10) % 10;
-        int hundred = (entero / 100) % 10;
-        int thousand = entero / 1000;
+       final int unit = entero % diez;
+       final int ten = (entero / diez) % diez;
+       final int hundred = (entero / cien) % diez;
+       final int thousand = entero / mil;
 
-        return Thousands[thousand] + Hundreds[hundred] + Tens[ten] + Units[unit];
+        return THOUSANDS[thousand] + HUNDREDS[hundred] +
+                TENS[ten] + UNITS[unit];
 
     }
 
