@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-
+/** Esto es una prueba de integración continua. */
 public class RomanNumeralsShouldTest {
 
 
